@@ -25,7 +25,7 @@ Wasserstein GAN with gradient penalty is an improvement of DCGAN and tries to ma
 4. **C-GAN**
 Conditional GAN is an improvement in the WGAN-GP model , where the classification labels of the image set can help improve the training process. Here we add an embedding layer in our image channels which supplies our generator information about which class to generate and the critic also judges fake and real images for the same label class. Thus the corresponding real and fake images (in the image grid)  for a particular step are of the same class. 
 
-*For more details on the architecture and loss functions please refer to the  [project report]("Project Report\Image Generation.pdf").*
+*For more details on the architecture and loss functions please refer to the  [project report](Project Report\Image Generation.pdf).*
 
 # Results and Comparison
 
@@ -52,7 +52,7 @@ Conditional GAN is an improvement in the WGAN-GP model , where the classificatio
 </tr>
 </table>
 
-*For more detailed comparison please refer to the [project report]("Project Report\Image Generation.pdf").*
+*For more detailed comparison please refer to the [project report](Project Report\Image Generation.pdf).*
 
 # Conclusion
 
