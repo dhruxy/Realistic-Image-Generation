@@ -10,7 +10,7 @@ Implemented and trained various Generative Adversarial Networks (GANs) to genera
 **General Adversarial Networks** are used in image generation. The basic concept of GANs is that it has 2 networks playing an adversarial game against each other ( where loss of one player is gain of the other). One of them is called Generator which generates images from random noise and the other is called Discriminator which distinguishes between fake and real images. The objective of the generator is to generate images that are indistinguishable from the real images, so that the discriminator can not decide which image is real and will have to guess with a probability of 0.5. By competing against each other both the networks train to get better and better.
 
 <p align="center">
- <img  width="400" height="600" src="Resources\GAN architecture.png">
+ <img  width="452" height="500" src="Resources\GAN architecture.png">
 </p>
 
 1. **Vanilla GAN**
@@ -31,29 +31,18 @@ Conditional GAN is an improvement in the WGAN-GP model , where the classificatio
 
 <table>
 <tr>
-	<th>Sl no.</th>
 	<th>GAN</th>
-	<th>Generated Images</th>
+    <th>Vanilla GAN</th>
+    <th>DCGAN</th>
+    <th>WGAN-GP</th>
+    <th>C-GAN</th>
 </tr>
 <tr>
-	<td><a id="first">1</a></td>
-	<td><b>Vanilla GAN</b></td>
-	<td><img src="Resources\Vainlla_GAN.png" width="400" /></td>
-</tr>
-<tr>
-	<td><a id="Second">2</a></td>
-	<td><b>DCGAN</b></td>
-	<td><img src="Resources\DC_GAN.png" width="400" /></td>
-</tr>
-<tr>
-	<td><a id="third">3</a></td>
-	<td><b>Vanilla GAN</b></td>
-	<td><img src="Resources\WGAN-GP.png" width="400" /></td>
-</tr>
-<tr>
-	<td><a id="fourth">4</a></td>
-	<td><b>Vanilla GAN</b></td>
-	<td><img src="Resources\CGAN.png" width="400" /></td>
+    <th>Generated Images</th>
+    <td><img src="Resources\Vainlla_GAN.png" width="200" /></td>
+    <td><img src="Resources\DC_GAN.png" width="200" /></td>
+    <td><img src="Resources\WGAN-GP.png" width="200" /></td>
+    <td><img src="Resources\CGAN.png" width="200" /></td>
 </tr>
 </table>
 
