@@ -52,6 +52,12 @@ Conditional GAN is an improvement in the WGAN-GP model , where the classificatio
 </tr>
 </table>
 
+*For more detailed comparison please refer to the project report.*
+
+# Conclusion
+
+I have used 4 different architectures for this project and with each model I have tried to improve the fake image and make it indistinguishable from the real image. Due to the resources available I was only able to train these models for around 50 epochs and I believe that if these models are further trained they should be able to generate even better results. For training of GANs it is highly necessary to select the correct hyperparameters and when doing in real practice a loop for great hyperparameter search would be really helpful as with correct hyperparameters the model will converge really fast and produce great fake images.
+
 
 
 
