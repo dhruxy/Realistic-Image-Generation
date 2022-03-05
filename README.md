@@ -34,13 +34,19 @@ Conditional GAN is an improvement in the WGAN-GP model , where the classificatio
 	<th>GAN</th>
     <th>Vanilla GAN</th>
     <th>DCGAN</th>
-    <th>WGAN-GP</th>
-    <th>C-GAN</th>
 </tr>
 <tr>
     <th>Generated Images</th>
     <td><img src="Resources\Vainlla_GAN.png" width="300" /></td>
     <td><img src="Resources\DC_GAN.png" width="300" /></td>
+</tr>
+<tr>
+	<th>GAN</th>
+    <th>WGAN-GP</th>
+    <th>C-GAN</th>
+</tr>
+<tr>
+    <th>Generated Images</th>
     <td><img src="Resources\WGAN-GP.png" width="300" /></td>
     <td><img src="Resources\CGAN.png" width="300" /></td>
 </tr>
