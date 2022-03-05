@@ -10,7 +10,7 @@ Implemented and trained various Generative Adversarial Networks (GANs) to genera
 **General Adversarial Networks** are used in image generation. The basic concept of GANs is that it has 2 networks playing an adversarial game against each other ( where loss of one player is gain of the other). One of them is called Generator which generates images from random noise and the other is called Discriminator which distinguishes between fake and real images. The objective of the generator is to generate images that are indistinguishable from the real images, so that the discriminator can not decide which image is real and will have to guess with a probability of 0.5. By competing against each other both the networks train to get better and better.
 
 <p align="center">
- <img  width="452" height="500" src="Resources\GAN architecture.png">
+ <img  width="300" height="330" src="Resources\GAN architecture.png">
 </p>
 
 1. **Vanilla GAN**
